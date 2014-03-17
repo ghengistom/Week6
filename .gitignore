@@ -1,4 +1,3 @@
-
 import java.util.Scanner; //gets scanner library
 public class PracticeSwitch
 {
@@ -34,3 +33,4 @@ public class PracticeSwitch
 	}
 }
  
+// Almost there...you forgot to ask to see if user had breakfast...
