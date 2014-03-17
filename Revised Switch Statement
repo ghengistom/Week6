@@ -1,0 +1,38 @@
+import java.util.Scanner; //gets scanner library
+public class PracticeSwitch
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.println("Are you hungry?(y for yes and n for no) ");
+		String hungry=input.next();
+		char hungry2 = hungry.charAt(0);  // this takes variable hungry and puts it into array
+		if ((hungry2 == 'y') || (hungry2 == 'Y'))
+		{
+			System.out.println("Get in line");
+			System.out.println("Buy lunch");
+			System.out.println("Are you thirsty? (1 for coke and 2 for diet coke)");
+			int drink=input.nextInt();
+			switch (drink)
+			{
+				case 1:
+				System.out.println("Buy Coke");
+				System.out.println("Eat Lunch");
+				System.out.println("Leave");break;
+			
+				case 2:
+				System.out.println("Buy Diet Coke");
+				System.out.println("Eat Lunch");
+				System.out.println( "Leave");break;
+			}
+		}
+		else  
+		{
+			System.out.println("Get water");
+			System.out.println("Eat Lunch");
+			System.out.println("Leave");
+		} 
+		
+	}
+}
+ 
