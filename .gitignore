@@ -1,0 +1,39 @@
+
+
+import java.util.Scanner; //gets scanner library
+public class PracticeSwitch
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.println("Hungry");
+		System.out.println("Get in line");
+		System.out.println("Buy lunch");
+		System.out.println("Are you thirsty (1 for yes and 2 for no?)");
+		int drink=input.nextInt();
+
+
+		switch (drink)
+		{
+			case 1:
+			System.out.println("Buy Coke");
+			System.out.println("Eat Lunch");
+			System.out.println("Leave");
+
+
+		}
+		switch (drink)
+		{
+		case 2:
+			System.out.println("Get water");
+			System.out.println("Eat Lunch");
+			System.out.println("Leave");
+		}
+
+
+
+
+	}
+
+
+}
